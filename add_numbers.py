@@ -30,3 +30,7 @@ if __name__ == "__main__":
     # Example 4: Adding different types of numbers
     result4 = add_multiple_numbers(15.5, 20.3, 10)
     print(f"15.5 + 20.3 + 10 = {result4}")
+
+    def add_with_default(a, b=0):
+    """Add two numbers with a default value for b."""
+    return a + b
